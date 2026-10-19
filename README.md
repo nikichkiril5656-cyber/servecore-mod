@@ -4,24 +4,6 @@
 
 Весь интерфейс сделан на ванильных сундуках, поэтому клиентам мод ставить не нужно.
 
-## Сборка
-
-Требуется JDK 21.
-
-```bash
-# один раз: создать gradle wrapper (или скопируйте gradlew и папку gradle/ из официального NeoForge MDK 1.21.1)
-gradle wrapper --gradle-version 8.10.2
-
-./gradlew build
-```
-
-Готовый jar: `build/libs/servercore-1.0.0.jar`. Положите его в `mods/` сервера.
-
-Если Gradle не находит `neo_version=21.1.172`, поставьте любую актуальную 21.1.x в `gradle.properties`
-(список: https://projects.neoforged.net/neoforged/neoforge).
-
-Тестовый запуск из исходников: `./gradlew runServer`.
-
 ## Команды
 
 | Команда | Что делает |
